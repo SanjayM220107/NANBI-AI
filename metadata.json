@@ -1,0 +1,6 @@
+{
+  "name": "NANBI - Your Government Companion",
+  "description": "A beginner-friendly, voice-first government scheme discovery and application guidance platform designed for women.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

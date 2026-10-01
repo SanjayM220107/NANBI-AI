@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-tamil: 'Mukta Malar', 'Noto Sans Tamil', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-tamil), var(--font-sans);
+    background-color: #FAF8F5;
+    color: #1F2937;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Accessibility Font Size Scaling */
+html.text-size-sm {
+  font-size: 15px;
+}
+html.text-size-base {
+  font-size: 17px;
+}
+html.text-size-lg {
+  font-size: 20px;
+}
+
+/* High Contrast Mode */
+html.high-contrast {
+  filter: contrast(125%);
+}
+html.high-contrast body {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+html.high-contrast .bg-white {
+  background-color: #FFFFFF !important;
+  border-color: #000000 !important;
+}
+html.high-contrast button {
+  border-width: 2px !important;
+  font-weight: 700 !important;
+}
+
+/* Touch targets and mobile optimizations */
+button, a, input, select {
+  touch-action: manipulation;
+}
+
+/* Subtle voice pulse animation */
+@keyframes voice-ripple {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(225, 29, 72, 0.4);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 16px rgba(225, 29, 72, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(225, 29, 72, 0);
+  }
+}
+
+.animate-voice-ripple {
+  animation: voice-ripple 1.8s infinite ease-in-out;
+}
+
+@keyframes bar-bounce {
+  0%, 100% {
+    height: 6px;
+  }
+  50% {
+    height: 22px;
+  }
+}
+
+.animate-bar-1 {
+  animation: bar-bounce 0.8s infinite ease-in-out;
+}
+.animate-bar-2 {
+  animation: bar-bounce 0.8s infinite ease-in-out 0.2s;
+}
+.animate-bar-3 {
+  animation: bar-bounce 0.8s infinite ease-in-out 0.4s;
+}
+.animate-bar-4 {
+  animation: bar-bounce 0.8s infinite ease-in-out 0.6s;
+}

@@ -1,0 +1,1217 @@
+[
+  {
+    "id": "pudhumai-penn",
+    "nameEnglish": "Pudhumai Penn Scheme (Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme)",
+    "nameTamil": "புதுமைப் பெண் திட்டம் (மூவலூர் ராமாமிர்தம் அம்மையார் உயர்கல்வி உறுதித் திட்டம்)",
+    "scope": "state",
+    "state": "Tamil Nadu",
+    "districts": ["All"],
+    "category": "education",
+    "department": {
+      "english": "Social Welfare and Women Empowerment Department, Govt. of Tamil Nadu",
+      "tamil": "சமூக நலம் மற்றும் மகளிர் உரிமைத் துறை, தமிழ்நாடு அரசு"
+    },
+    "descriptionEnglish": "Financial assistance of ₹1,000 per month deposited directly into bank accounts of girl students who studied classes 6 to 12 in Tamil Nadu government schools and enrolled in undergraduate degrees, diplomas, or ITI courses.",
+    "descriptionTamil": "தமிழ்நாடு அரசுப் பள்ளிகளில் 6 முதல் 12-ஆம் வகுப்பு வரை படித்து, பட்டப்படிப்பு, பட்டயப்படிப்பு (Diploma) அல்லது ITI படிப்புகளில் சேரும் மாணவிகளுக்கு மாதம் ₹1,000 வங்கி கணக்கில் நேரடியாக வழங்கும் திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "Girl students who studied in Tamil Nadu Government schools from classes 6 to 12 and are enrolled in recognized higher education courses.",
+      "summaryTamil": "6 முதல் 12-ஆம் வகுப்பு வரை அரசுப் பள்ளிகளில் பயின்று தற்போது அங்கீகரிக்கப்பட்ட உயர்கல்வி பயிலும் மாணவிகள்.",
+      "minAge": 17,
+      "maxAge": 25,
+      "targetGroupEnglish": "Female college students from government schools",
+      "targetGroupTamil": "அரசுப் பள்ளியில் படித்த கல்லூரி மாணவிகள்",
+      "incomeLimitEnglish": "No family income limit",
+      "incomeLimitTamil": "குடும்ப வருமான வரம்பு இல்லை",
+      "questions": [
+        {
+          "id": "school_type",
+          "questionEnglish": "Did you study classes 6 to 12 continuously in a Tamil Nadu Government school?",
+          "questionTamil": "நீங்கள் 6 முதல் 12-ஆம் வகுப்பு வரை தொடர்ந்து தமிழ்நாடு அரசுப் பள்ளியில் படித்தீர்களா?",
+          "options": [
+            { "labelEnglish": "Yes, completely in Govt school", "labelTamil": "ஆம், முழுவதும் அரசுப் பள்ளியில் படித்தேன்", "eligible": true },
+            { "labelEnglish": "No, studied in private school", "labelTamil": "இல்லை, தனியார் பள்ளியில் படித்தேன்", "eligible": false }
+          ]
+        },
+        {
+          "id": "course_enrolled",
+          "questionEnglish": "Are you currently pursuing a Degree, Diploma, or ITI course in a recognized college/institution?",
+          "questionTamil": "தற்போது அங்கீகரிக்கப்பட்ட கல்லூரியில் பட்டப்படிப்பு, Diploma அல்லது ITI படித்து வருகிறீர்களா?",
+          "options": [
+            { "labelEnglish": "Yes, currently studying", "labelTamil": "ஆம், தற்போது படித்து வருகிறேன்", "eligible": true },
+            { "labelEnglish": "No / Not enrolled yet", "labelTamil": "இல்லை / இன்னும் சேரவில்லை", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "₹1,000 every month directly deposited to student's bank account until completion of course.",
+      "summaryTamil": "படிப்பு முடியும் வரை மாதந்தோறும் ₹1,000 மாணவியின் வங்கிக் கணக்கில் நேரடியாக வரவு வைக்கப்படும்.",
+      "detailsEnglish": [
+        "₹1,000 monthly direct bank transfer (DBT)",
+        "Disbursed every month throughout the regular course duration",
+        "Encourages women to pursue higher education and become economically self-reliant"
+      ],
+      "detailsTamil": [
+        "மாதந்தோறும் ₹1,000 வங்கிக் கணக்கில் நேரடி வரவு",
+        "கல்லூரி படிப்பு காலம் முழுவதும் தவறாமல் வழங்கப்படும்",
+        "பெண்கள் உயர்கல்வி பெற்று பொருளாதார சுயாட்சி பெற உதவுகிறது"
+      ],
+      "amount": "₹1,000 / month",
+      "frequency": "Monthly"
+    },
+    "documents": [
+      {
+        "id": "aadhaar",
+        "nameEnglish": "Student Aadhaar Card",
+        "nameTamil": "மாணவியின் ஆதார் அட்டை",
+        "descriptionEnglish": "Identity and address proof of the student.",
+        "descriptionTamil": "மாணவியின் அடையாள மற்றும் முகவரிச் சான்று.",
+        "whyRequiredEnglish": "Used to link DBT bank account and verify identity.",
+        "whyRequiredTamil": "வங்கி கணக்குடன் இணைக்கவும் அடையாளத்தை உறுதிப்படுத்தவும் தேவைப்படுகிறது."
+      },
+      {
+        "id": "school_tc",
+        "nameEnglish": "School Bonafide / Transfer Certificate (TC)",
+        "nameTamil": "பள்ளி மாற்றுச் சான்றிதழ் (TC) அல்லது பயின்ற சான்றிதழ்",
+        "descriptionEnglish": "Proof showing study from 6th to 12th in Tamil Nadu government school.",
+        "descriptionTamil": "6 முதல் 12 வரை அரசுப் பள்ளியில் பயின்றதற்கான சான்று.",
+        "whyRequiredEnglish": "Verifies that the student studied in a government school.",
+        "whyRequiredTamil": "அரசுப் பள்ளியில் படித்தவர் என்பதை உறுதி செய்ய தேவைப்படுகிறது."
+      },
+      {
+        "id": "college_id",
+        "nameEnglish": "College Admission Bonafide / ID Card",
+        "nameTamil": "கல்லூரி சேர்க்கை சான்றிதழ் / அடையாள அட்டை",
+        "descriptionEnglish": "Proof of current admission in higher education.",
+        "descriptionTamil": "தற்போது கல்லூரியில் பயில்வதற்கான உறுதிச் சான்று.",
+        "whyRequiredEnglish": "Confirms active enrollment in degree or diploma.",
+        "whyRequiredTamil": "தற்போது கல்லூரியில் படித்து வருவதை உறுதி செய்ய."
+      },
+      {
+        "id": "bank_passbook",
+        "nameEnglish": "Student's Bank Passbook (Aadhaar linked)",
+        "nameTamil": "மாணவியின் வங்கிக் கணக்கு புத்தகம்",
+        "descriptionEnglish": "Bank account in student's own name with IFSC and account number.",
+        "descriptionTamil": "மாணவியின் பெயரிலுள்ள வங்கி பாஸ்புக் (ஆதார் இணைக்கப்பட்டிருக்க வேண்டும்).",
+        "whyRequiredEnglish": "Monthly ₹1,000 is directly credited into this account.",
+        "whyRequiredTamil": "மாதாந்திர ₹1,000 உதவித்தொகை நேரடியாக வரவு வைக்கப்பட வேண்டும்."
+      }
+    ],
+    "applicationMode": "online",
+    "applicationPortalName": "Pudhumai Penn Official Portal (TNeGA)",
+    "applicationStepsEnglish": [
+      "Keep your 10th/12th marksheets, school study certificate (EMIS number), and bank passbook ready.",
+      "Your college/institution nodal officer will verify your details on the official Pudhumai Penn portal (pudhumaipenn.tn.gov.in).",
+      "Verify that your Aadhaar number is linked with your active single-holder savings bank account.",
+      "The nodal officer submits the application and provides you an acknowledgment slip.",
+      "Once approved by the Social Welfare Department, ₹1,000 is directly credited to your bank account every month."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ உங்கள் பள்ளி மாற்றுச் சான்றிதழ் (TC / EMIS எண்), கல்லூரி அடையாள அட்டை மற்றும் வங்கி பாஸ்புக்கை தயாராக வைக்கவும்.",
+      "2️⃣ உங்கள் கல்லூரியின் பொறுப்பு அதிகாரி (Nodal Officer) அதிகாரப்பூர்வ புதுமைப் பெண் இணையதளத்தில் (pudhumaipenn.tn.gov.in) உங்கள் விவரங்களைப் பதிவு செய்வார்.",
+      "3️⃣ உங்கள் ஆதார் எண் வங்கி சேமிப்புக் கணக்குடன் இணைக்கப்பட்டுள்ளதை உறுதி செய்யவும்.",
+      "4️⃣ கல்லூரி அதிகாரி விண்ணப்பத்தை சமர்ப்பித்து உங்களுக்கு ஒப்புதல் ரசீது வழங்குவார்.",
+      "5️⃣ சமூக நலத்துறையின் சரிபார்ப்பிற்கு பின், மாதாந்திர உதவித்தொகை ₹1,000 உங்கள் வங்கிக் கணக்கில் நேரடியாக வந்து சேரும்."
+    ],
+    "officialSourceUrl": "https://pudhumaipenn.tn.gov.in/",
+    "officialApplyUrl": "https://pudhumaipenn.tn.gov.in/",
+    "lastVerified": "2026-09-15"
+  },
+  {
+    "id": "kmut-magalir-urimai",
+    "nameEnglish": "Kalaignar Magalir Urimai Thittam (KMUT)",
+    "nameTamil": "கலைஞர் மகளிர் உரிமைத் திட்டம்",
+    "scope": "state",
+    "state": "Tamil Nadu",
+    "districts": ["All"],
+    "category": "women",
+    "department": {
+      "english": "Special Programme Implementation & Revenue Department, Govt. of Tamil Nadu",
+      "tamil": "சிறப்புத் திட்ட செயலாக்கத் துறை மற்றும் வருவாய்த்துறை, தமிழ்நாடு அரசு"
+    },
+    "descriptionEnglish": "Universal basic income support providing ₹1,000 per month directly to eligible women heads of households to recognize their unpaid care work and foster social dignity.",
+    "descriptionTamil": "குடும்பத் தலைவிகளின் உழைப்பை அங்கீகரித்து, பொருளாதார சுதந்திரத்தை வழங்க தகுதியுடைய பெண் குடும்பத் தலைவிகளுக்கு மாதம் ₹1,000 உரிமைத்தொகை வழங்கும் தமிழ்நாடு அரசின் திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "Women heads of families aged 21 and above with annual family income under ₹2.5 lakh, land holding under 5 acres wetland or 10 acres dryland, and annual electricity consumption under 3,600 units.",
+      "summaryTamil": "21 வயது நிரம்பிய குடும்பத் தலைவிகள். குடும்ப ஆண்டு வருமானம் ₹2.5 லட்சத்திற்குள் இருக்க வேண்டும்; 5 ஏக்கர் நன்செய் அல்லது 10 ஏக்கர் புன்செய் நிலத்திற்குள் இருக்க வேண்டும்.",
+      "minAge": 21,
+      "maxAge": 100,
+      "targetGroupEnglish": "Women heads of families in Tamil Nadu",
+      "targetGroupTamil": "தமிழ்நாட்டு குடும்பத் தலைவிகள்",
+      "incomeLimitEnglish": "Annual family income below ₹2,50,000",
+      "incomeLimitTamil": "குடும்ப ஆண்டு வருமானம் ₹2,50,000-க்கு கீழ்",
+      "questions": [
+        {
+          "id": "head_of_family",
+          "questionEnglish": "Are you designated as the woman head of the family on your Smart Ration Card?",
+          "questionTamil": "உங்கள் ஸ்மார்ட் குடும்ப அட்டையில் (Ration Card) நீங்கள் குடும்பத் தலைவியாக உள்ளீர்களா?",
+          "options": [
+            { "labelEnglish": "Yes, I am the head of family", "labelTamil": "ஆம், நான் குடும்பத் தலைவி", "eligible": true },
+            { "labelEnglish": "No, other person is head", "labelTamil": "இல்லை, வேறு நபர் உள்ளார்", "eligible": true }
+          ]
+        },
+        {
+          "id": "family_income",
+          "questionEnglish": "Is your total annual family income less than ₹2,50,000?",
+          "questionTamil": "உங்கள் குடும்பத்தின் மொத்த ஆண்டு வருமானம் ₹2.5 லட்சத்திற்கும் குறைவாக உள்ளதா?",
+          "options": [
+            { "labelEnglish": "Yes, less than ₹2.5 Lakhs", "labelTamil": "ஆம், ₹2.5 லட்சத்திற்கும் குறைவு", "eligible": true },
+            { "labelEnglish": "No, more than ₹2.5 Lakhs", "labelTamil": "இல்லை, ₹2.5 லட்சத்திற்கும் அதிகம்", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "₹1,000 every month directly credited into woman head of family's bank account.",
+      "summaryTamil": "மாதந்தோறும் ₹1,000 உரிமைத்தொகை குடும்பத் தலைவியின் வங்கிக் கணக்கில் நேரடியாக வரவு வைக்கப்படும்.",
+      "detailsEnglish": [
+        "₹1,000 transferred on the 15th of every month",
+        "Direct Benefit Transfer (DBT) directly into Aadhaar-seeded account",
+        "Provides unconditional basic financial security for household needs"
+      ],
+      "detailsTamil": [
+        "ஒவ்வொரு மாதமும் 15-ஆம் தேதி ₹1,000 வங்கி கணக்கில் வரவு",
+        "ஆதார் இணைக்கப்பட்ட கணக்கிற்கு நேரடிப் பணப் பரிமாற்றம்",
+        "குடும்ப தேவைகளுக்கு சுயசார்புடைய நிதி உதவி"
+      ],
+      "amount": "₹1,000 / month",
+      "frequency": "Monthly"
+    },
+    "documents": [
+      {
+        "id": "smart_ration_card",
+        "nameEnglish": "Smart Family Card (Ration Card)",
+        "nameTamil": "ஸ்மார்ட் குடும்ப அட்டை (ரேஷன் கார்டு)",
+        "descriptionEnglish": "Tamil Nadu digital smart ration card indicating family members.",
+        "descriptionTamil": "குடும்ப உறுப்பினர்களின் விவரம் கொண்ட தமிழ்நாடு ஸ்மார்ட் ரேஷன் கார்டு.",
+        "whyRequiredEnglish": "Essential to identify the woman head of family.",
+        "whyRequiredTamil": "குடும்பத் தலைவி மற்றும் உறுப்பினர்களை உறுதி செய்ய முதன்மை ஆவணம்."
+      },
+      {
+        "id": "aadhaar",
+        "nameEnglish": "Aadhaar Card of Applicant",
+        "nameTamil": "விண்ணப்பதாரரின் ஆதார் அட்டை",
+        "descriptionEnglish": "Aadhaar card with biometric authentication.",
+        "descriptionTamil": "பயோமெட்ரிக் சரிபார்ப்பு கொண்ட ஆதார் அட்டை.",
+        "whyRequiredEnglish": "Required for biometric verification and DBT bank linking.",
+        "whyRequiredTamil": "கைரேகை பதிவு மற்றும் நேரடி வங்கி பணப் பரிமாற்றத்திற்கு அவசியம்."
+      },
+      {
+        "id": "bank_passbook",
+        "nameEnglish": "Bank Passbook with Aadhaar Seeding",
+        "nameTamil": "ஆதார் இணைக்கப்பட்ட வங்கி பாஸ்புக்",
+        "descriptionEnglish": "Savings bank passbook showing account number and IFSC.",
+        "descriptionTamil": "வங்கி கணக்கு எண் மற்றும் IFSC குறியீடு கொண்ட பாஸ்புக்.",
+        "whyRequiredEnglish": "Monthly grant is paid directly into this bank account.",
+        "whyRequiredTamil": "மாதாந்திர உரிமைத்தொகை இந்த கணக்கில் நேரடியாக செலுத்தப்படும்."
+      },
+      {
+        "id": "electricity_bill",
+        "nameEnglish": "Electricity Consumer Number (EB Bill)",
+        "nameTamil": "மின் இணைப்பு நுகர்வோர் எண் (EB அட்டை / ரசீது)",
+        "descriptionEnglish": "Domestic electricity service connection number.",
+        "descriptionTamil": "வீட்டு மின் இணைப்பு நுகர்வோர் எண்.",
+        "whyRequiredEnglish": "Verifies annual electricity consumption is within 3,600 units limit.",
+        "whyRequiredTamil": "ஆண்டு மின் பயன்பாடு 3,600 யூனிட்டுக்குள் உள்ளதா என சரிபார்க்க."
+      }
+    ],
+    "applicationMode": "offline_esevei",
+    "applicationPortalName": "KMUT Official Portal / e-Sevai / Fair Price Shop Camps",
+    "applicationStepsEnglish": [
+      "Keep your Smart Family Ration Card, Aadhaar Card, Electricity Consumer Number, and Bank Passbook ready.",
+      "Submit through official KMUT camps or via the local e-Sevai center / Fair Price Shop registrar.",
+      "Your biometric fingerprint verification will be recorded by the registrar.",
+      "You will receive an SMS confirmation with an application reference number.",
+      "Check application status or submit an appeal on the official portal kmut.tn.gov.in or at e-Sevai."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ உங்கள் ஸ்மார்ட் குடும்ப அட்டை, ஆதார் அட்டை, வங்கி பாஸ்புக், மற்றும் மின் கட்டண நுகர்வோர் எண்ணை தயாராக வைக்கவும்.",
+      "2️⃣ உங்கள் பகுதியில் உள்ள இ-சேவை மையம் அல்லது நியாயவிலைக் கடை முகாமில் விண்ணப்பப் படிவத்தை சமர்ப்பிக்கவும்.",
+      "3️⃣ விண்ணப்பப் பதிவாளர் மூலம் கைரேகை பயோமெட்ரிக் சரிபார்ப்பை மேற்கொள்ளவும்.",
+      "4️⃣ உங்கள் மொபைல் எண்ணிற்கு விண்ணப்ப பதிவு எண் குறுஞ்செய்தியாக (SMS) வரும்.",
+      "5️⃣ விண்ணப்ப நிலையை kmut.tn.gov.in இணையதளத்தில் அல்லது இ-சேவை மையத்தில் சரிபார்க்கலாம்."
+    ],
+    "officialSourceUrl": "https://kmut.tn.gov.in/",
+    "officialApplyUrl": "https://kmut.tn.gov.in/",
+    "lastVerified": "2026-09-15"
+  },
+  {
+    "id": "destitute-widow-pension",
+    "nameEnglish": "Destitute Widow Pension Scheme (DWPS)",
+    "nameTamil": "ஆதரவற்ற விதவை ஓய்வூதியத் திட்டம்",
+    "scope": "state",
+    "state": "Tamil Nadu",
+    "districts": ["All"],
+    "category": "finance",
+    "department": {
+      "english": "Revenue and Disaster Management Department (Social Security Schemes), Govt. of Tamil Nadu",
+      "tamil": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை (சமூகப் பாதுகாப்புத் திட்டங்கள்), தமிழ்நாடு அரசு"
+    },
+    "descriptionEnglish": "Monthly pension of ₹1,200 along with free bus passes and free clothes for destitute widows with no adequate means of livelihood.",
+    "descriptionTamil": "வாழ்வாதாரம் இல்லாத ஆதரவற்ற விதவைப் பெண்களுக்கு மாதம் ₹1,200 ஓய்வூதியம், இலவச பேருந்து பயணம் மற்றும் இலவச ஆடைகள் வழங்கும் தமிழ்நாடு அரசின் சமூகப் பாதுகாப்பு திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "Destitute widow aged 18 and above, residing in Tamil Nadu, with annual income not exceeding prescribed poverty limits and no adult earning family member.",
+      "summaryTamil": "18 வயது அல்லது அதற்கு மேற்பட்ட ஆதரவற்ற விதவைப் பெண். வருமான வரம்பிற்குள் இருக்க வேண்டும்.",
+      "minAge": 18,
+      "maxAge": 100,
+      "targetGroupEnglish": "Destitute widows",
+      "targetGroupTamil": "ஆதரவற்ற விதவைப் பெண்கள்",
+      "incomeLimitEnglish": "Annual income within BPL criteria (as certified by Revenue authority)",
+      "incomeLimitTamil": "வருவாய்த்துறை நிர்ணயித்த வறுமைக்கோட்டிற்குட்பட்ட வருமானம்",
+      "questions": [
+        {
+          "id": "widow_status",
+          "questionEnglish": "Are you a widow with a Death Certificate of your husband?",
+          "questionTamil": "நீங்கள் கணவரை இழந்தவரா? கணவரின் இறப்புச் சான்றிதழ் உள்ளதா?",
+          "options": [
+            { "labelEnglish": "Yes, I have the death certificate", "labelTamil": "ஆம், இறப்புச் சான்றிதழ் உள்ளது", "eligible": true },
+            { "labelEnglish": "No / Not applicable", "labelTamil": "இல்லை", "eligible": false }
+          ]
+        },
+        {
+          "id": "adult_earning_son",
+          "questionEnglish": "Do you have any adult earning son aged above 21 who can support you?",
+          "questionTamil": "உங்களுக்கு உதவக்கூடிய 21 வயதுக்கு மேற்பட்ட சம்பாதிக்கும் மகன் உள்ளாரா?",
+          "options": [
+            { "labelEnglish": "No, I am destitute / no earning son", "labelTamil": "இல்லை, எனக்கு ஆதரிக்கும் மகன் இல்லை", "eligible": true },
+            { "labelEnglish": "Yes, earning son provides support", "labelTamil": "ஆம், சம்பாதிக்கும் மகன் உள்ளார்", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "₹1,200 monthly pension + 2 free sarees per year + free rice via PDS.",
+      "summaryTamil": "மாதம் ₹1,200 ஓய்வூதியம் + ஆண்டுக்கு 2 இலவச சேலைகள் + இலவச ரேஷன் அரிசி.",
+      "detailsEnglish": [
+        "₹1,200 per month credited directly to bank account via DBT",
+        "Free seasonal clothing: 2 Sarees distributed on Pongal and Deepavali festivals",
+        "Free Rice distributed through Public Distribution System (PDS)",
+        "Free bus concession passes on state government buses"
+      ],
+      "detailsTamil": [
+        "மாதந்தோறும் ₹1,200 வங்கி கணக்கில் நேரடியாக வரவு",
+        "பொங்கல் மற்றும் தீபாவளி பண்டிகைகளில் 2 இலவச சேலைகள்",
+        "ரேஷன் கடைகள் மூலம் இலவச அரிசி",
+        "அரசுப் பேருந்துகளில் இலவச பயண சலுகை"
+      ],
+      "amount": "₹1,200 / month",
+      "frequency": "Monthly"
+    },
+    "documents": [
+      {
+        "id": "death_certificate",
+        "nameEnglish": "Husband's Death Certificate",
+        "nameTamil": "கணவரின் இறப்புச் சான்றிதழ்",
+        "descriptionEnglish": "Official death certificate issued by local body / corporation.",
+        "descriptionTamil": "நகராட்சி / ஊராட்சி அலுவலகம் வழங்கிய அதிகாரப்பூர்வ இறப்புச் சான்றிதழ்.",
+        "whyRequiredEnglish": "Essential legal proof of widowhood.",
+        "whyRequiredTamil": "விதவை நிலையை சட்டப்பூர்வமாக நிரூபிக்க அவசியம்."
+      },
+      {
+        "id": "destitute_widow_cert",
+        "nameEnglish": "Destitute Widow Certificate (from Tahsildar)",
+        "nameTamil": "ஆதரவற்ற விதவைச் சான்றிதழ் (வட்டாட்சியர் வழங்கியது)",
+        "descriptionEnglish": "Revenue department certificate confirming destitute status.",
+        "descriptionTamil": "வருவாய்த்துறை வட்டாட்சியர் (Tahsildar) வழங்கும் ஆதரவற்ற நிலை சான்றிதழ்.",
+        "whyRequiredEnglish": "Verifies that the applicant has no adequate financial support.",
+        "whyRequiredTamil": "ஆதரவற்ற நிலையில் இருப்பதை உறுதி செய்ய தேவைப்படுகிறது."
+      },
+      {
+        "id": "aadhaar",
+        "nameEnglish": "Aadhaar Card",
+        "nameTamil": "ஆதார் அட்டை",
+        "descriptionEnglish": "Aadhaar identity card.",
+        "descriptionTamil": "விண்ணப்பதாரரின் ஆதார் அடையாள அட்டை.",
+        "whyRequiredEnglish": "Identity proof and DBT bank account linkage.",
+        "whyRequiredTamil": "அடையாளச் சான்று மற்றும் நேரடி வங்கி வரவிற்கு."
+      },
+      {
+        "id": "smart_ration_card",
+        "nameEnglish": "Smart Ration Card",
+        "nameTamil": "குடும்ப அட்டை (Ration Card)",
+        "descriptionEnglish": "Smart family ration card indicating residence in Tamil Nadu.",
+        "descriptionTamil": "தமிழ்நாட்டில் வசிப்பதற்கான குடும்ப அட்டை.",
+        "whyRequiredEnglish": "Residential verification and PDS benefit link.",
+        "whyRequiredTamil": "முகவரி சரிபார்ப்பு மற்றும் ரேஷன் சலுகை பெற."
+      },
+      {
+        "id": "bank_passbook",
+        "nameEnglish": "Bank Account Passbook",
+        "nameTamil": "வங்கி பாஸ்புக்",
+        "descriptionEnglish": "Savings bank passbook showing active account details.",
+        "descriptionTamil": "சேமிப்பு வங்கி கணக்கு எண் மற்றும் விவரம்.",
+        "whyRequiredEnglish": "Monthly pension of ₹1,200 is directly deposited here.",
+        "whyRequiredTamil": "மாத ஓய்வூதியம் ₹1,200 இதில் நேரடியாக வரவு வைக்கப்படும்."
+      }
+    ],
+    "applicationMode": "offline_esevei",
+    "applicationPortalName": "Tamil Nadu e-Sevai Portal (TNeGA)",
+    "applicationStepsEnglish": [
+      "Gather your Husband's Death Certificate, Smart Ration Card, Aadhaar Card, and Bank Passbook.",
+      "Visit your nearest Government e-Sevai center (or apply online via tnesevai.tn.gov.in).",
+      "Select 'Revenue Department' -> 'Destitute Widow Pension Scheme (REV-402)'.",
+      "The e-Sevai operator scans your documents and submits the digital application to the Tahsildar.",
+      "The Village Administrative Officer (VAO) and Revenue Inspector (RI) verify your application.",
+      "Upon approval by the Special Tahsildar (SSS), your pension starts arriving in your bank account."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ கணவரின் இறப்புச் சான்றிதழ், குடும்ப அட்டை, ஆதார் அட்டை, மற்றும் வங்கி பாஸ்புக்கை தயாராக வைக்கவும்.",
+      "2️⃣ உங்களுக்கு அருகிலுள்ள தமிழ்நாடு அரசு இ-சேவை மையத்திற்குச் செல்லவும் (அல்லது tnesevai.tn.gov.in வழியே).",
+      "3️⃣ 'வருவாய்த்துறை' -> 'ஆதரவற்ற விதவை ஓய்வூதியத் திட்டம் (REV-402)' சேவையை தேர்வு செய்யவும்.",
+      "4️⃣ இ-சேவை பணியாளர் உங்கள் ஆவணங்களை ஸ்கேன் செய்து இணையத்தில் பதிவேற்றுவார்.",
+      "5️⃣ கிராம நிர்வாக அலுவலர் (VAO) மற்றும் வருவாய் ஆய்வாளர் (RI) விசாரணை செய்து அறிக்கை அளிப்பர்.",
+      "6️⃣ வட்டாட்சியர் ஒப்புதல் அளித்தவுடன், மாதாந்திர ஓய்வூதியம் ₹1,200 உங்கள் வங்கிக் கணக்கில் வந்து சேரும்."
+    ],
+    "officialSourceUrl": "https://www.tnesevai.tn.gov.in/",
+    "officialApplyUrl": "https://www.tnesevai.tn.gov.in/",
+    "lastVerified": "2026-09-15"
+  },
+  {
+    "id": "destitute-deserted-woman-pension",
+    "nameEnglish": "Destitute Deserted Woman Pension Scheme (DDWPS)",
+    "nameTamil": "ஆதரவற்ற கணவனால் கைவிடப்பட்ட பெண் ஓய்வூதியத் திட்டம்",
+    "scope": "state",
+    "state": "Tamil Nadu",
+    "districts": ["All"],
+    "category": "finance",
+    "department": {
+      "english": "Revenue and Disaster Management Department, Govt. of Tamil Nadu",
+      "tamil": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை, தமிழ்நாடு அரசு"
+    },
+    "descriptionEnglish": "Monthly financial assistance of ₹1,200 for destitute women deserted by their husbands for not less than 5 years or legally divorced, without family support.",
+    "descriptionTamil": "கணவரால் குறைந்தது 5 ஆண்டுகள் கைவிடப்பட்ட அல்லது சட்டப்படி விவாகரத்து பெற்ற ஆதரவற்ற பெண்களுக்கு மாதம் ₹1,200 வழங்கும் சமூகப் பாதுகாப்பு திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "Deserted woman aged 30 and above, deserted by husband for at least 5 years (or divorced), residing in Tamil Nadu, meeting destitute income criteria.",
+      "summaryTamil": "30 வயது அல்லது அதற்கு மேற்பட்ட பெண். கணவனால் 5 ஆண்டுகளுக்கு மேல் கைவிடப்பட்டவர் அல்லது சட்டப்படி விவாகரத்து பெற்றவர்.",
+      "minAge": 30,
+      "maxAge": 100,
+      "targetGroupEnglish": "Deserted and divorced destitute women",
+      "targetGroupTamil": "கணவனால் கைவிடப்பட்ட ஆதரவற்ற பெண்கள்",
+      "incomeLimitEnglish": "Destitute income level certified by Tahsildar",
+      "incomeLimitTamil": "வட்டாட்சியரால் சான்றளிக்கப்பட்ட ஆதரவற்ற வருமான நிலை",
+      "questions": [
+        {
+          "id": "deserted_duration",
+          "questionEnglish": "Have you been deserted by your husband for at least 5 years or legally divorced?",
+          "questionTamil": "நீங்கள் கணவரால் குறைந்தது 5 ஆண்டுகள் கைவிடப்பட்டவரா அல்லது நீதிமன்ற விவாகரத்து பெற்றவரா?",
+          "options": [
+            { "labelEnglish": "Yes, deserted for 5+ years / Divorced", "labelTamil": "ஆம், 5 ஆண்டுகளுக்கும் மேல் கைவிடப்பட்டவர் / விவாகரத்து பெற்றவர்", "eligible": true },
+            { "labelEnglish": "No, less than 5 years", "labelTamil": "இல்லை, 5 ஆண்டுகளுக்குக் குறைவு", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "₹1,200 monthly pension + 2 free sarees per year + free rice via PDS.",
+      "summaryTamil": "மாதம் ₹1,200 ஓய்வூதியம் + ஆண்டுக்கு 2 இலவச சேலைகள் + இலவச ரேஷன் அரிசி.",
+      "detailsEnglish": [
+        "₹1,200 monthly direct bank transfer",
+        "Free seasonal sarees on Pongal & Deepavali",
+        "Free rice under Public Distribution System",
+        "State bus travel concession"
+      ],
+      "detailsTamil": [
+        "மாதந்தோறும் ₹1,200 வங்கி கணக்கில் நேரடி வரவு",
+        "பண்டிகை நாட்களில் 2 இலவச சேலைகள்",
+        "ரேஷன் கடைகளில் இலவச அரிசி",
+        "அரசுப் பேருந்து பயண சலுகை"
+      ],
+      "amount": "₹1,200 / month",
+      "frequency": "Monthly"
+    },
+    "documents": [
+      {
+        "id": "deserted_certificate",
+        "nameEnglish": "Deserted Woman Certificate / Legal Divorce Decree",
+        "nameTamil": "கணவனால் கைவிடப்பட்டமைக்கான சான்றிதழ் / விவாகரத்து தீர்ப்பு",
+        "descriptionEnglish": "Certificate from Tahsildar confirming desertion for 5+ years or Court divorce order.",
+        "descriptionTamil": "5 வருடங்களுக்கு மேலாக கணவர் பிரிந்து வாழ்கிறார் என வட்டாட்சியர் சான்று அல்லது நீதிமன்ற ஆணை.",
+        "whyRequiredEnglish": "Essential proof of deserted/divorced status.",
+        "whyRequiredTamil": "கைவிடப்பட்ட நிலையை சட்டப்பூர்வமாக நிரூபிக்க."
+      },
+      {
+        "id": "aadhaar",
+        "nameEnglish": "Aadhaar Card",
+        "nameTamil": "ஆதார் அட்டை",
+        "descriptionEnglish": "Identity and address proof.",
+        "descriptionTamil": "அடையாள மற்றும் முகவரிச் சான்று.",
+        "whyRequiredEnglish": "Verification and DBT.",
+        "whyRequiredTamil": "சரிபார்ப்பு மற்றும் நேரடி வங்கி பணப் பரிமாற்றம்."
+      },
+      {
+        "id": "smart_ration_card",
+        "nameEnglish": "Smart Ration Card",
+        "nameTamil": "குடும்ப அட்டை",
+        "descriptionEnglish": "Current residential card.",
+        "descriptionTamil": "தற்போதைய குடியிருப்பு ரேஷன் அட்டை.",
+        "whyRequiredEnglish": "Proof of independent residence.",
+        "whyRequiredTamil": "தனித்து வசிப்பதற்கான சான்று."
+      },
+      {
+        "id": "bank_passbook",
+        "nameEnglish": "Bank Passbook",
+        "nameTamil": "வங்கி பாஸ்புக்",
+        "descriptionEnglish": "Savings account details.",
+        "descriptionTamil": "சேமிப்பு கணக்கு விவரங்கள்.",
+        "whyRequiredEnglish": "Pension deposit.",
+        "whyRequiredTamil": "ஓய்வூதியம் வரவு வைக்க."
+      }
+    ],
+    "applicationMode": "offline_esevei",
+    "applicationPortalName": "Tamil Nadu e-Sevai Portal (TNeGA)",
+    "applicationStepsEnglish": [
+      "Obtain Deserted Woman Certificate from Revenue Inspector/Tahsildar or court divorce paper.",
+      "Visit the nearest e-Sevai center with Aadhaar, Ration card, and Bank passbook.",
+      "Select 'Revenue Department' -> 'Destitute Deserted Woman Pension Scheme (REV-403)'.",
+      "e-Sevai executive submits the digital application on your behalf.",
+      "Following field inquiry by VAO and Revenue Inspector, approval order is passed by Special Tahsildar."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ வட்டாட்சியரிடமிருந்து கைவிடப்பட்ட பெண் சான்றிதழ் அல்லது விவாகரத்து உத்தரவு நகல் பெறவும்.",
+      "2️⃣ ஆதார் அட்டை, ரேஷன் அட்டை, மற்றும் வங்கி பாஸ்புக்குடன் அருகில் உள்ள இ-சேவை மையத்திற்கு செல்லவும்.",
+      "3️⃣ 'வருவாய்த்துறை' -> 'கைவிடப்பட்ட பெண் ஓய்வூதியத் திட்டம் (REV-403)' சேவையை தேர்வு செய்யவும்.",
+      "4️⃣ இ-சேவை பணியாளர் விண்ணப்பத்தை அரசு இணையத்தில் பதிவேற்றுவார்.",
+      "5️⃣ VAO மற்றும் RI கள ஆய்வு அறிக்கைக்குப் பின் வட்டாட்சியர் ஒப்புதல் வழங்கி ஓய்வூதியம் தொடங்கப்படும்."
+    ],
+    "officialSourceUrl": "https://www.tnesevai.tn.gov.in/",
+    "officialApplyUrl": "https://www.tnesevai.tn.gov.in/",
+    "lastVerified": "2026-09-15"
+  },
+  {
+    "id": "unmarried-women-pension",
+    "nameEnglish": "Unmarried Women Pension Scheme (UWPS)",
+    "nameTamil": "50 வயதுக்கு மேற்பட்ட ஆதரவற்ற திருமணமாகாத பெண் ஓய்வூதியத் திட்டம்",
+    "scope": "state",
+    "state": "Tamil Nadu",
+    "districts": ["All"],
+    "category": "finance",
+    "department": {
+      "english": "Revenue and Disaster Management Department, Govt. of Tamil Nadu",
+      "tamil": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை, தமிழ்நாடு அரசு"
+    },
+    "descriptionEnglish": "Monthly pension of ₹1,200 for destitute unmarried women aged 50 and above who do not have familial support or steady income.",
+    "descriptionTamil": "50 வயது நிரம்பிய, குடும்ப ஆதரவு இல்லாத மற்றும் வாழ்வாதாரம் அற்ற திருமணமாகாத ஏழைப் பெண்களுக்கு மாதம் ₹1,200 வழங்கும் ஓய்வூதியத் திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "Unmarried woman aged 50 and above, residing in Tamil Nadu, with no income source and living below poverty line.",
+      "summaryTamil": "50 வயது அல்லது அதற்கு மேற்பட்ட திருமணமாகாத ஆதரவற்ற பெண். வறுமைக் கோட்டிற்குட்பட்டவர்.",
+      "minAge": 50,
+      "maxAge": 100,
+      "targetGroupEnglish": "Destitute unmarried women aged 50+",
+      "targetGroupTamil": "50 வயதுக்கு மேற்பட்ட ஆதரவற்ற திருமணமாகாத பெண்கள்",
+      "incomeLimitEnglish": "BPL income level certified by revenue authority",
+      "incomeLimitTamil": "வருவாய்த்துறை சான்றளித்த வறுமை நிலை",
+      "questions": [
+        {
+          "id": "marital_status",
+          "questionEnglish": "Are you an unmarried woman aged 50 years or above?",
+          "questionTamil": "நீங்கள் 50 வயது அல்லது அதற்கு மேற்பட்ட திருமணமாகாத பெண்ணா?",
+          "options": [
+            { "labelEnglish": "Yes, 50+ and unmarried", "labelTamil": "ஆம், 50 வயதுக்கு மேற்பட்ட திருமணமாகாத பெண்", "eligible": true },
+            { "labelEnglish": "No / Married", "labelTamil": "இல்லை / திருமணமானவர்", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "₹1,200 monthly pension + 2 free sarees + free rice.",
+      "summaryTamil": "மாதம் ₹1,200 ஓய்வூதியம் + 2 இலவச சேலைகள் + இலவச ரேஷன் அரிசி.",
+      "detailsEnglish": [
+        "₹1,200 monthly DBT to bank account",
+        "Free clothing on festival seasons",
+        "Free PDS rice supply",
+        "State bus travel concessions"
+      ],
+      "detailsTamil": [
+        "மாதந்தோறும் ₹1,200 நேரடி வங்கி வரவு",
+        "பண்டிகை நாட்களில் 2 இலவச சேலைகள்",
+        "ரேஷன் இலவச அரிசி",
+        "அரசுப் பேருந்து பயண சலுகை"
+      ],
+      "amount": "₹1,200 / month",
+      "frequency": "Monthly"
+    },
+    "documents": [
+      {
+        "id": "age_proof",
+        "nameEnglish": "Age Proof (Aadhaar / Voter ID)",
+        "nameTamil": "வயதுச் சான்றிதழ் (ஆதார் / வாக்காளர் அட்டை)",
+        "descriptionEnglish": "Document confirming age is 50 or above.",
+        "descriptionTamil": "50 வயது நிரம்பியதை உறுதிப்படுத்தும் ஆவணம்.",
+        "whyRequiredEnglish": "Age verification is mandatory.",
+        "whyRequiredTamil": "வயது வரம்பு சரிபார்க்க அவசியம்."
+      },
+      {
+        "id": "unmarried_cert",
+        "nameEnglish": "Unmarried Certificate (from VAO / Tahsildar)",
+        "nameTamil": "திருமணமாகாதவர் சான்றிதழ் (VAO / வட்டாட்சியர்)",
+        "descriptionEnglish": "Village Administrative Officer certificate confirming unmarried status.",
+        "descriptionTamil": "திருமணம் ஆகவில்லை என்பதை உறுதிப்படுத்தும் கிராம நிர்வாக அலுவலர் சான்றிதழ்.",
+        "whyRequiredEnglish": "Confirms unmarried status.",
+        "whyRequiredTamil": "திருமணமாகாத நிலையை உறுதி செய்ய."
+      },
+      {
+        "id": "smart_ration_card",
+        "nameEnglish": "Smart Ration Card",
+        "nameTamil": "குடும்ப அட்டை",
+        "descriptionEnglish": "Ration card proof of residence.",
+        "descriptionTamil": "குடியிருப்பு குடும்ப அட்டை.",
+        "whyRequiredEnglish": "Residential verification.",
+        "whyRequiredTamil": "குடியிருப்பு முகவரியை சரிபார்க்க."
+      },
+      {
+        "id": "bank_passbook",
+        "nameEnglish": "Bank Passbook",
+        "nameTamil": "வங்கி பாஸ்புக்",
+        "descriptionEnglish": "Aadhaar linked bank account.",
+        "descriptionTamil": "ஆதார் இணைக்கப்பட்ட வங்கி கணக்கு புத்தகம்.",
+        "whyRequiredEnglish": "Direct monthly pension deposit.",
+        "whyRequiredTamil": "மாத ஓய்வூதியம் நேரடியாக பெற."
+      }
+    ],
+    "applicationMode": "offline_esevei",
+    "applicationPortalName": "Tamil Nadu e-Sevai Portal (TNeGA)",
+    "applicationStepsEnglish": [
+      "Get an Unmarried Certificate from your local VAO / Revenue Inspector.",
+      "Visit the nearest e-Sevai center with your Aadhaar, Ration Card, and Bank Passbook.",
+      "Select 'Revenue Department' -> 'Unmarried Women Pension Scheme (REV-405)'.",
+      "The operator submits your digital application.",
+      "After field verification, pension is sanctioned by the Tahsildar."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ கிராம நிர்வாக அலுவலரிடம் (VAO) திருமணமாகாதவர் சான்றிதழ் பெறவும்.",
+      "2️⃣ ஆதார் அட்டை, குடும்ப அட்டை, மற்றும் வங்கி பாஸ்புக்குடன் அருகில் உள்ள இ-சேவை மையத்திற்குச் செல்லவும்.",
+      "3️⃣ 'வருவாய்த்துறை' -> '50 வயதுக்கு மேற்பட்ட திருமணமாகாத பெண் ஓய்வூதியம் (REV-405)' சேவையை தேர்வு செய்யவும்.",
+      "4️⃣ இ-சேவை பணியாளர் விண்ணப்பத்தை சமர்ப்பித்து ரசீது வழங்குவார்.",
+      "5️⃣ கள ஆய்வுக்குப் பின் வட்டாட்சியர் ஒப்புதல் அளித்தவுடன் வங்கிக் கணக்கில் ஓய்வூதியம் வந்து சேரும்."
+    ],
+    "officialSourceUrl": "https://www.tnesevai.tn.gov.in/",
+    "officialApplyUrl": "https://www.tnesevai.tn.gov.in/",
+    "lastVerified": "2026-09-15"
+  },
+  {
+    "id": "girl-child-protection",
+    "nameEnglish": "Chief Minister's Girl Child Protection Scheme",
+    "nameTamil": "முதலமைச்சரின் பெண் குழந்தை பாதுகாப்புத் திட்டம்",
+    "scope": "state",
+    "state": "Tamil Nadu",
+    "districts": ["All"],
+    "category": "women",
+    "department": {
+      "english": "Social Welfare and Women Empowerment Department, Govt. of Tamil Nadu",
+      "tamil": "சமூக நலம் மற்றும் மகளிர் உரிமைத் துறை, தமிழ்நாடு அரசு"
+    },
+    "descriptionEnglish": "Fixed deposit scheme of ₹50,000 for families with only one girl child or ₹25,000 each for two girl children in TN Power Finance Corporation, maturing with interest for higher education.",
+    "descriptionTamil": "ஒரு பெண் குழந்தை மட்டும் உள்ள குடும்பத்திற்கு ₹50,000 அல்லது இரு பெண் குழந்தைகள் உள்ள குடும்பத்திற்கு தலா ₹25,000 தமிழ்நாடு பவர் பைனான்ஸ் நிறுவனத்தில் முதலீடு செய்யப்பட்டு, 18 வயதில் உயர்கல்விக்கு வட்டியுடன் வழங்கப்படும் திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "Families with only 1 or 2 girl children and NO male child. Either parent must have undergone sterilization before 40 years of age. Annual family income under ₹72,000.",
+      "summaryTamil": "ஆண் குழந்தை இல்லாமல் ஒன்று அல்லது இரண்டு பெண் குழந்தைகள் மட்டுமே உள்ள குடும்பங்கள். பெற்றோர் ஒருவர் 40 வயதுக்குள் குடும்பக்கட்டுப்பாடு செய்திருக்க வேண்டும். குடும்ப ஆண்டு வருமானம் ₹72,000-க்குள் இருக்க வேண்டும்.",
+      "minAge": 18,
+      "maxAge": 45,
+      "targetGroupEnglish": "Parents with only girl children",
+      "targetGroupTamil": "பெண் குழந்தைகள் மட்டுமே உள்ள பெற்றோர்",
+      "incomeLimitEnglish": "Annual family income not exceeding ₹72,000",
+      "incomeLimitTamil": "குடும்ப ஆண்டு வருமானம் ₹72,000-க்கு மிகாமல் இருக்க வேண்டும்",
+      "questions": [
+        {
+          "id": "male_child_check",
+          "questionEnglish": "Do you have any male child in the family?",
+          "questionTamil": "உங்கள் குடும்பத்தில் ஆண் குழந்தை உள்ளதா?",
+          "options": [
+            { "labelEnglish": "No, only girl child(ren)", "labelTamil": "இல்லை, பெண் குழந்தைகள் மட்டுமே", "eligible": true },
+            { "labelEnglish": "Yes, have male child", "labelTamil": "ஆம், ஆண் குழந்தை உள்ளது", "eligible": false }
+          ]
+        },
+        {
+          "id": "sterilization_check",
+          "questionEnglish": "Has either parent undergone family planning / sterilization before age 40?",
+          "questionTamil": "பெற்றோரில் ஒருவர் 40 வயதுக்குள் குடும்பக் கட்டுப்பாடு செய்துள்ளாரா?",
+          "options": [
+            { "labelEnglish": "Yes, sterilized before 40", "labelTamil": "ஆம், 40 வயதுக்குள் குடும்பக் கட்டுப்பாடு செய்யப்பட்டுள்ளது", "eligible": true },
+            { "labelEnglish": "No / Not yet", "labelTamil": "இல்லை", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "Scheme I: ₹50,000 fixed deposit for 1 girl child. Scheme II: ₹25,000 each for 2 girl children + annual incentive.",
+      "summaryTamil": "திட்டம் 1: ஒரு பெண் குழந்தைக்கு ₹50,000 வைப்பு நிதி. திட்டம் 2: இரு பெண் குழந்தைகளுக்கு தலா ₹25,000 வைப்பு நிதி + ஆண்டு ஊக்கத்தொகை.",
+      "detailsEnglish": [
+        "Fixed deposit receipt in child's name with Tamil Nadu Power Finance and Infrastructure Development Corporation",
+        "Annual incentive of ₹1,800 paid to child from 6th year onwards for school expenses",
+        "Principal and accumulated compound interest handed over to girl child when she reaches 18 years for college education"
+      ],
+      "detailsTamil": [
+        "தமிழ்நாடு பவர் பைனான்ஸ் நிறுவனத்தில் குழந்தையின் பெயரில் நிலையான வைப்பு நிதி ரசீது",
+        "பள்ளிப் படிப்பு செலவுகளுக்காக 6-ஆம் ஆண்டு முதல் ஆண்டுதோறும் ₹1,800 ஊக்கத்தொகை",
+        "குழந்தைக்கு 18 வயது நிறைவடையும் போது அசல் மற்றும் வட்டியுடன் உயர்கல்விக்கு முழுத் தொகையும் வழங்கப்படும்"
+      ],
+      "amount": "₹50,000 / ₹25,000 Deposit",
+      "frequency": "One-time deposit with annual school incentive"
+    },
+    "documents": [
+      {
+        "id": "birth_certificate",
+        "nameEnglish": "Girl Child's Birth Certificate",
+        "nameTamil": "பெண் குழந்தையின் பிறப்புச் சான்றிதழ்",
+        "descriptionEnglish": "Official municipal / panchayat birth certificate.",
+        "descriptionTamil": "அதிகாரப்பூர்வ பிறப்புச் சான்றிதழ்.",
+        "whyRequiredEnglish": "Confirms age and date of birth of the girl child.",
+        "whyRequiredTamil": "குழந்தையின் வயது மற்றும் பிறந்த தேதியை உறுதி செய்ய."
+      },
+      {
+        "id": "sterilization_cert",
+        "nameEnglish": "Sterilization Certificate (Family Planning)",
+        "nameTamil": "குடும்பக் கட்டுப்பாடு சான்றிதழ்",
+        "descriptionEnglish": "Certificate from Government Hospital / PHC.",
+        "descriptionTamil": "அரசு மருத்துவமனை வழங்கிய குடும்பக் கட்டுப்பாடு சான்று.",
+        "whyRequiredEnglish": "Proof of family planning before age 40.",
+        "whyRequiredTamil": "40 வயதுக்குள் குடும்பக்கட்டுப்பாடு செய்யப்பட்டதை உறுதி செய்ய."
+      },
+      {
+        "id": "income_cert",
+        "nameEnglish": "Income Certificate (Annual income under ₹72,000)",
+        "nameTamil": "வருமானச் சான்றிதழ் (ஆண்டு வருமானம் ₹72,000-க்குள்)",
+        "descriptionEnglish": "Issued by Tahsildar through e-Sevai.",
+        "descriptionTamil": "இ-சேவை மூலம் வட்டாட்சியர் வழங்கிய வருமானச் சான்று.",
+        "whyRequiredEnglish": "Verifies family income criteria.",
+        "whyRequiredTamil": "வருமான தகுதியை சரிபார்க்க."
+      },
+      {
+        "id": "community_cert",
+        "nameEnglish": "Community Certificate",
+        "nameTamil": "சாதிச் சான்றிதழ்",
+        "descriptionEnglish": "Parents' community certificate.",
+        "descriptionTamil": "பெற்றோரின் சாதிச் சான்றிதழ்.",
+        "whyRequiredEnglish": "Social category verification.",
+        "whyRequiredTamil": "சமூக பிரிவு சரிபார்ப்பிற்கு."
+      }
+    ],
+    "applicationMode": "offline_esevei",
+    "applicationPortalName": "Social Welfare Department / e-Sevai Portal",
+    "applicationStepsEnglish": [
+      "Enroll child before age 3 (Scheme I) or age 5 (Scheme II) at the Block Development Office (BDO) / e-Sevai.",
+      "Submit application with Birth Certificate, Sterilization Certificate, Income Certificate, and Aadhaar.",
+      "District Social Welfare Officer (DSWO) verifies and approves the application.",
+      "A Fixed Deposit Bond is issued in the name of the girl child with TN Power Finance.",
+      "Keep the bond safely until the child turns 18 to claim the full maturity amount."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ திட்டம்-1க்கு குழந்தை 3 வயதுக்குள்ளும், திட்டம்-2க்கு 5 வயதுக்குள்ளும் விண்ணப்பிக்க வேண்டும்.",
+      "2️⃣ பிறப்புச் சான்றிதழ், குடும்பக் கட்டுப்பாடு சான்றிதழ், வருமானச் சான்று, மற்றும் ஆதாருடன் இ-சேவை அல்லது வட்டார வளர்ச்சி அலுவலகத்தில் (BDO) விண்ணப்பிக்கவும்.",
+      "3️⃣ மாவட்ட சமூக நல அலுவலர் (DSWO) விண்ணப்பத்தை ஆய்வு செய்து ஒப்புதல் அளிப்பார்.",
+      "4️⃣ குழந்தையின் பெயரில் தமிழ்நாடு பவர் பைனான்ஸ் நிறுவன வைப்பு நிதி பத்திரம் (Bond) வழங்கப்படும்.",
+      "5️⃣ குழந்தைக்கு 18 வயது நிறைவடையும் போது முதிர்வுத் தொகையை பெற்று உயர்கல்விக்கு பயன்படுத்தலாம்."
+    ],
+    "officialSourceUrl": "https://www.tn.gov.in/",
+    "officialApplyUrl": "https://www.tnesevai.tn.gov.in/",
+    "lastVerified": "2026-09-15"
+  },
+  {
+    "id": "needs-women-entrepreneur",
+    "nameEnglish": "Tamil Nadu NEEDS Scheme for Women Entrepreneurs",
+    "nameTamil": "மகளிர் தொழில்முனைவோருக்கான NEEDS திட்டம் (புதிய தொழில்முனைவோர் மேம்பாட்டுத் திட்டம்)",
+    "scope": "state",
+    "state": "Tamil Nadu",
+    "districts": ["All"],
+    "category": "entrepreneurship",
+    "department": {
+      "english": "MSME Department & District Industries Centre (DIC), Govt. of Tamil Nadu",
+      "tamil": "குறு, சிறு மற்றும் நடுத்தர தொழில் நிறுவனங்கள் துறை (MSME) & மாவட்ட தொழில் மையம் (DIC), தமிழ்நாடு அரசு"
+    },
+    "descriptionEnglish": "Special entrepreneurship scheme providing 25% capital subsidy (up to ₹75 Lakhs) and 3% interest subvention for educated first-generation women starting manufacturing or service enterprises.",
+    "descriptionTamil": "படித்த முதல் தலைமுறை மகளிர் தொழில்முனைவோர் புதிய உற்பத்தி அல்லது சேவை தொழில்கள் தொடங்க 25% மானியம் (₹75 லட்சம் வரை) மற்றும் 3% வட்டி மானியம் வழங்கும் தமிழ்நாடு அரசின் சிறப்புத் திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "First-generation women entrepreneurs with Degree / Diploma / ITI, aged 21 to 45 years, setting up new manufacturing or service enterprise with project cost from ₹10 Lakhs to ₹5 Crores.",
+      "summaryTamil": "பட்டப்படிப்பு, டிப்ளமோ அல்லது ITI முடித்த 21 முதல் 45 வயதுடைய முதல் தலைமுறை பெண் தொழில்முனைவோர். திட்ட மதிப்பு ₹10 லட்சம் முதல் ₹5 கோடி வரை.",
+      "minAge": 21,
+      "maxAge": 45,
+      "targetGroupEnglish": "First-generation women entrepreneurs",
+      "targetGroupTamil": "முதல் தலைமுறை பெண் தொழில்முனைவோர்",
+      "incomeLimitEnglish": "No family income ceiling",
+      "incomeLimitTamil": "வருமான வரம்பு இல்லை",
+      "questions": [
+        {
+          "id": "education_check",
+          "questionEnglish": "Do you hold a Degree, Diploma, or ITI qualification?",
+          "questionTamil": "நீங்கள் பட்டப்படிப்பு, Diploma அல்லது ITI முடித்துள்ளீர்களா?",
+          "options": [
+            { "labelEnglish": "Yes, hold Degree/Diploma/ITI", "labelTamil": "ஆம், பட்டம்/டிப்ளமோ/ITI முடித்துள்ளேன்", "eligible": true },
+            { "labelEnglish": "No", "labelTamil": "இல்லை", "eligible": false }
+          ]
+        },
+        {
+          "id": "first_gen_check",
+          "questionEnglish": "Are you a first-generation entrepreneur starting a new venture?",
+          "questionTamil": "நீங்கள் புதிதாக தொழில் தொடங்க விரும்பும் முதல் தலைமுறை தொழில்முனைவோரா?",
+          "options": [
+            { "labelEnglish": "Yes, first generation entrepreneur", "labelTamil": "ஆம், முதல் தலைமுறை தொழில்முனைவோர்", "eligible": true },
+            { "labelEnglish": "No, already running enterprise", "labelTamil": "இல்லை", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "25% government subsidy on project cost (up to ₹75 Lakhs) + 3% interest subvention on bank loan + free entrepreneurship training.",
+      "summaryTamil": "திட்ட மதிப்பீட்டில் 25% அரசு மானியம் (₹75 லட்சம் வரை) + 3% வட்டி மானியம் + இலவச தொழில்முனைவோர் பயிற்சி.",
+      "detailsEnglish": [
+        "25% capital subsidy on total project cost (maximum ₹75,00,000)",
+        "3% interest subvention rebate on bank term loan throughout repayment tenure",
+        "Entrepreneurship Development Programme (EDP) training conducted by EDII-TN",
+        "Facilitated through District Industries Centre (DIC) and commercial banks"
+      ],
+      "detailsTamil": [
+        "திட்ட முதலீட்டில் 25% நேரடி அரசு மானியம் (அதிகபட்சம் ₹75,00,000 வரை)",
+        "வங்கி கடன் திரும்பச் செலுத்தும் காலம் வரை 3% வட்டி மானியம்",
+        "EDII-TN மூலம் தொழில்முனைவோர் பயிற்சி (EDP Training)",
+        "மாவட்ட தொழில் மையம் (DIC) மற்றும் வங்கிகள் மூலம் எளிய வழிகாட்டல்"
+      ],
+      "amount": "Up to ₹75,00,000 Subsidy",
+      "frequency": "Project capital subsidy + interest subvention"
+    },
+    "documents": [
+      {
+        "id": "project_report",
+        "nameEnglish": "Detailed Project Report (DPR)",
+        "nameTamil": "திட்ட அறிக்கை (Business Project Report)",
+        "descriptionEnglish": "Business plan with machinery, raw material, and financial projections.",
+        "descriptionTamil": "இயந்திரங்கள், மூலப்பொருட்கள் மற்றும் நிதி திட்டமிடல் கொண்ட திட்ட அறிக்கை.",
+        "whyRequiredEnglish": "Essential for bank loan appraisal and DIC approval.",
+        "whyRequiredTamil": "வங்கி கடன் மற்றும் தொழில் துறை ஆய்வுக்கு தேவை."
+      },
+      {
+        "id": "educational_certs",
+        "nameEnglish": "Degree / Diploma / ITI Certificate",
+        "nameTamil": "கல்வித் தகுதிச் சான்றிதழ் (பட்டம் / டிப்ளமோ / ITI)",
+        "descriptionEnglish": "Proof of required educational qualification.",
+        "descriptionTamil": "கல்வித் தகுதியை உறுதிப்படுத்தும் சான்று.",
+        "whyRequiredEnglish": "Mandatory eligibility condition.",
+        "whyRequiredTamil": "திட்டத்தின் தகுதி விதியை பூர்த்தி செய்ய."
+      },
+      {
+        "id": "aadhaar_pan",
+        "nameEnglish": "Aadhaar Card & PAN Card",
+        "nameTamil": "ஆதார் அட்டை மற்றும் பான் அட்டை (PAN Card)",
+        "descriptionEnglish": "Identity and tax identification of the promoter.",
+        "descriptionTamil": "தொழில்முனைவோரின் அடையாள மற்றும் வரி ஆவணங்கள்.",
+        "whyRequiredEnglish": "Banking KYC and legal verification.",
+        "whyRequiredTamil": "வங்கி KYC மற்றும் வணிக சரிபார்ப்பிற்கு."
+      }
+    ],
+    "applicationMode": "online",
+    "applicationPortalName": "Tamil Nadu MSME Online Portal",
+    "applicationStepsEnglish": [
+      "Prepare your Detailed Project Report (DPR) with estimated costs and machinery quotations.",
+      "Visit the official Tamil Nadu MSME portal (msmeonline.tn.gov.in/needs).",
+      "Fill the online application form and upload education certificate, DPR, and ID proofs.",
+      "Appear before the District Level Task Force Committee (DLTFC) chaired by District Collector.",
+      "Upon recommendation, sanction letter is sent to your preferred bank for loan disbursement."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ திட்ட மதிப்பீடு மற்றும் இயந்திர விலைப்புள்ளிகளுடன் திட்ட அறிக்கையை (DPR) தயார் செய்யவும்.",
+      "2️⃣ தமிழ்நாடு MSME அதிகாரப்பூர்வ இணையதளத்தில் (msmeonline.tn.gov.in/needs) பதிவு செய்யவும்.",
+      "3️⃣ கல்விச் சான்றிதழ், திட்ட அறிக்கை மற்றும் அடையாள அட்டைகளை இணையத்தில் பதிவேற்றவும்.",
+      "4️⃣ மாவட்ட ஆட்சியர் தலைமையிலான தேர்வுக் குழு (DLTFC) முன் நேர்காணலில் பங்கேற்கவும்.",
+      "5️⃣ ஒப்புதல் பெற்ற பின், நீங்கள் தேர்வு செய்த வங்கிக் கிளை மூலம் மானியத்துடன் கடன் வழங்கப்படும்."
+    ],
+    "officialSourceUrl": "https://msmeonline.tn.gov.in/needs/",
+    "officialApplyUrl": "https://msmeonline.tn.gov.in/needs/",
+    "lastVerified": "2026-09-15"
+  },
+  {
+    "id": "pmmvy-maternity",
+    "nameEnglish": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "nameTamil": "பிரதம மந்திரி மாத்ரு வந்தனா யோஜனா (தாய்மை நலத் திட்டம்)",
+    "scope": "national",
+    "state": "All India",
+    "districts": ["All"],
+    "category": "health",
+    "department": {
+      "english": "Ministry of Women and Child Development, Government of India",
+      "tamil": "மகளிர் மற்றும் குழந்தைகள் மேம்பாட்டு அமைச்சகம், இந்திய அரசு"
+    },
+    "descriptionEnglish": "Direct maternity benefit program providing cash assistance of ₹5,000 for first child (and ₹6,000 for second girl child) to pregnant and lactating mothers for health, nutrition, and institutional delivery.",
+    "descriptionTamil": "கர்ப்பிணி மற்றும் பாலூட்டும் தாய்மார்களுக்கு ஊட்டச்சத்து மற்றும் சுகாதார நலனுக்காக ₹5,000 (இரண்டாவது பெண் குழந்தைக்கு ₹6,000) உதவித்தொகை நேரடியாக வங்கி கணக்கில் வழங்கும் மத்திய அரசு திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "Pregnant women and lactating mothers aged 19 years and above belonging to socially/economically disadvantaged categories (BPL, MGNREGA cardholders, PM-JAY beneficiaries, or income < ₹8 lakh).",
+      "summaryTamil": "19 வயது அல்லது அதற்கு மேற்பட்ட கர்ப்பிணி தாய்மார்கள். குடும்ப அட்டைதாரர்கள் அல்லது வறுமைக்கோட்டிற்குட்பட்ட பிரிவினர்.",
+      "minAge": 19,
+      "maxAge": 50,
+      "targetGroupEnglish": "Pregnant and lactating mothers",
+      "targetGroupTamil": "கர்ப்பிணி மற்றும் பாலூட்டும் தாய்மார்கள்",
+      "incomeLimitEnglish": "Applicable to eligible social/economic categories",
+      "incomeLimitTamil": "தகுதியுடைய சமூக மற்றும் பொருளாதார பிரிவினர்",
+      "questions": [
+        {
+          "id": "pregnancy_check",
+          "questionEnglish": "Are you currently pregnant or delivered a child recently, registered with an Anganwadi / PHC?",
+          "questionTamil": "நீங்கள் தற்போது கர்ப்பிணியாக உள்ளீர்களா அல்லது அண்மையில் குழந்தை பெற்று அங்கன்வாடியில் பதிவு செய்துள்ளீர்களா?",
+          "options": [
+            { "labelEnglish": "Yes, registered with Anganwadi / PHC", "labelTamil": "ஆம், அங்கன்வாடி / ஆரம்ப சுகாதார நிலையத்தில் பதிவு செய்துள்ளேன்", "eligible": true },
+            { "labelEnglish": "No", "labelTamil": "இல்லை", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "₹5,000 in two installments for first child and ₹6,000 in single installment for second girl child.",
+      "summaryTamil": "முதல் குழந்தைக்கு இரு தவணைகளில் ₹5,000, இரண்டாவது பெண் குழந்தைக்கு ₹6,000 நேரடியாக வங்கிக் கணக்கில் வரவு.",
+      "detailsEnglish": [
+        "First installment (₹3,000): On early registration of pregnancy and at least 1 Antenatal Check-up (ANC)",
+        "Second installment (₹2,000): On birth registration and first cycle of child vaccination",
+        "Direct Benefit Transfer into Aadhaar-seeded bank or post office account"
+      ],
+      "detailsTamil": [
+        "முதல் தவணை (₹3,000): கர்ப்பகால ஆரம்ப பதிவு மற்றும் முதல் மருத்துவ பரிசோதனை (ANC) முடிந்த பின்",
+        "இரண்டாவது தவணை (₹2,000): குழந்தை பிறப்பு பதிவு மற்றும் முதல் கட்ட தடுப்பூசி முடிந்த பின்",
+        "ஆதார் இணைக்கப்பட்ட வங்கிக் கணக்கில் நேரடியாக பணம் வரவு வைக்கப்படும்"
+      ],
+      "amount": "₹5,000 / ₹6,000",
+      "frequency": "Installments per pregnancy"
+    },
+    "documents": [
+      {
+        "id": "mcp_card",
+        "nameEnglish": "Mother and Child Protection (MCP) Card",
+        "nameTamil": "தாய் சேய் நல அட்டை (MCP அட்டை)",
+        "descriptionEnglish": "Issued by Anganwadi / Primary Health Centre with RCH ID.",
+        "descriptionTamil": "ஆரம்ப சுகாதார நிலையம் அல்லது அங்கன்வாடி வழங்கிய RCH அடையாள எண் கொண்ட அட்டை.",
+        "whyRequiredEnglish": "Official medical proof of pregnancy and vaccinations.",
+        "whyRequiredTamil": "கர்ப்பகால மருத்துவ பரிசோதனை மற்றும் தடுப்பூசி சரிபார்க்க."
+      },
+      {
+        "id": "mother_aadhaar",
+        "nameEnglish": "Aadhaar Card of Mother",
+        "nameTamil": "தாயின் ஆதார் அட்டை",
+        "descriptionEnglish": "Aadhaar card of beneficiary woman.",
+        "descriptionTamil": "பயனாளியான பெண்ணின் ஆதார் அட்டை.",
+        "whyRequiredEnglish": "Mandatory for DBT cash transfer.",
+        "whyRequiredTamil": "நேரடி வங்கி பணப் பரிமாற்றத்திற்கு கட்டாயம்."
+      },
+      {
+        "id": "bank_passbook",
+        "nameEnglish": "Mother's Bank Passbook (Aadhaar linked)",
+        "nameTamil": "தாயின் வங்கி கணக்கு புத்தகம்",
+        "descriptionEnglish": "Bank / Post Office account in woman's name.",
+        "descriptionTamil": "தாயின் பெயரிலுள்ள வங்கி அல்லது அஞ்சலக பாஸ்புக்.",
+        "whyRequiredEnglish": "Cash benefit will be credited directly.",
+        "whyRequiredTamil": "உதவித்தொகை நேரடியாக இதில் வரவு வைக்கப்படும்."
+      }
+    ],
+    "applicationMode": "online",
+    "applicationPortalName": "Official PMMVY Citizen Portal",
+    "applicationStepsEnglish": [
+      "Register pregnancy at your local Anganwadi Center (AWC) or Primary Health Centre (PHC) to obtain your MCP card.",
+      "Visit the official PMMVY portal (pmmvy.wcd.gov.in) or visit your Anganwadi Worker (AWW) / ASHA.",
+      "Login as Citizen and submit Form 1A with MCP card details, Aadhaar, and Bank account.",
+      "After verification by the Child Development Project Officer (CDPO), the first installment is credited to your bank.",
+      "Submit vaccine records after childbirth for the second installment."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ உங்கள் அருகிலுள்ள அங்கன்வாடி அல்லது ஆரம்ப சுகாதார நிலையத்தில் கர்ப்பத்தை பதிவு செய்து தாய் சேய் நல அட்டை (MCP Card) பெறவும்.",
+      "2️⃣ pmmvy.wcd.gov.in இணையதளத்தில் நேரடியாக அல்லது அங்கன்வாடி பணியாளர் (ASHA) மூலமாக விண்ணப்பிக்கலாம்.",
+      "3️⃣ ஆதார் எண், MCP அட்டை விவரங்கள் மற்றும் வங்கி பாஸ்புக்கை உள்ளிட்டு விண்ணப்பத்தை சமர்ப்பிக்கவும்.",
+      "4️⃣ வட்டார குழந்தைகள் வளர்ச்சி திட்ட அலுவலர் (CDPO) சரிபார்த்த பின் முதல் தவணை வங்கிக் கணக்கில் வரவு வைக்கப்படும்.",
+      "5️⃣ பிரசவத்திற்கு பின் தடுப்பூசி விவரங்களை பதிவு செய்து இரண்டாம் தவணை தொகையை பெறலாம்."
+    ],
+    "officialSourceUrl": "https://pmmvy.wcd.gov.in/",
+    "officialApplyUrl": "https://pmmvy.wcd.gov.in/",
+    "lastVerified": "2026-09-15"
+  },
+  {
+    "id": "sukanya-samriddhi",
+    "nameEnglish": "Sukanya Samriddhi Yojana (SSY)",
+    "nameTamil": "செல்வ மகள் சேமிப்புத் திட்டம் (சுகன்யா சம்ரிதி)",
+    "scope": "national",
+    "state": "All India",
+    "districts": ["All"],
+    "category": "finance",
+    "department": {
+      "english": "Department of Posts & Ministry of Finance, Government of India",
+      "tamil": "அஞ்சல் துறை மற்றும் நிதி அமைச்சகம், இந்திய அரசு"
+    },
+    "descriptionEnglish": "High-interest government savings scheme under 'Beti Bachao Beti Padhao' for girl children below 10 years, offering tax-free returns and maturity benefits for higher education and marriage.",
+    "descriptionTamil": "10 வயதுக்குட்பட்ட பெண் குழந்தைகளின் உயர்கல்வி மற்றும் திருமணத் தேவைகளுக்காக அதிக வட்டி மற்றும் முழு வரிவிலக்கு வழங்கும் மத்திய அரசின் பாதுகாப்பான சேமிப்புத் திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "Girl child residing in India who has not attained 10 years of age. Account can be opened by parents or legal guardians in any Post Office or authorized commercial bank.",
+      "summaryTamil": "10 வயதுக்குட்பட்ட பெண் குழந்தைகள். பெற்றோர் அல்லது பாதுகாவலர் அஞ்சலகம் அல்லது வங்கிகளில் கணக்கு தொடங்கலாம்.",
+      "minAge": 0,
+      "maxAge": 10,
+      "targetGroupEnglish": "Girl children up to 10 years of age",
+      "targetGroupTamil": "10 வயதுக்குட்பட்ட பெண் குழந்தைகள்",
+      "incomeLimitEnglish": "No income ceiling (Minimum ₹250 deposit per year)",
+      "incomeLimitTamil": "வருமான வரம்பு இல்லை (ஆண்டுக்கு குறைந்தபட்சம் ₹250 மட்டுமே)",
+      "questions": [
+        {
+          "id": "child_age_check",
+          "questionEnglish": "Is your girl child 10 years of age or younger?",
+          "questionTamil": "உங்கள் பெண் குழந்தைக்கு 10 வயது அல்லது அதற்கும் குறைவாக உள்ளதா?",
+          "options": [
+            { "labelEnglish": "Yes, 10 years or younger", "labelTamil": "ஆம், 10 வயது அல்லது அதற்கும் குறைவு", "eligible": true },
+            { "labelEnglish": "No, older than 10", "labelTamil": "இல்லை, 10 வயதுக்கு மேல்", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "Highest sovereign interest rate (~8.2% p.a.), triple tax exemption (EEE), and 50% withdrawal for higher education at age 18.",
+      "summaryTamil": "அரசு வழங்கும் அதிகபட்ச வட்டி (~8.2%), வருமான வரிவிலக்கு மற்றும் 18 வயதில் உயர்கல்விக்காக 50% பணம் எடுக்கும் வசதி.",
+      "detailsEnglish": [
+        "Government backed sovereign guarantee with attractive interest rate (~8.2% compounded annually)",
+        "Minimum deposit only ₹250 per year (maximum ₹1.5 Lakh per financial year)",
+        "Exempt-Exempt-Exempt (EEE) tax status under Section 80C of Income Tax Act",
+        "Partial withdrawal of 50% allowed when girl turns 18 for college education fees"
+      ],
+      "detailsTamil": [
+        "மத்திய அரசின் 100% பாதுகாப்பான உத்தரவாதம் மற்றும் அதிகபட்ச வட்டி விகிதம்",
+        "ஆண்டுக்கு குறைந்தபட்சம் ₹250 முதல் சேமிக்கலாம் (அதிகபட்சம் ₹1,50,000)",
+        "முழுமையான வரிவிலக்கு (Section 80C)",
+        "குழந்தைக்கு 18 வயது முடிந்ததும் கல்லூரி படிப்பிற்காக 50% தொகையை எடுக்கலாம்"
+      ],
+      "amount": "8.2% Interest / Sovereign Deposit",
+      "frequency": "Annual deposit for 15 years, matures in 21 years"
+    },
+    "documents": [
+      {
+        "id": "child_birth_cert",
+        "nameEnglish": "Birth Certificate of Girl Child",
+        "nameTamil": "பெண் குழந்தையின் பிறப்புச் சான்றிதழ்",
+        "descriptionEnglish": "Certificate from Municipal Corporation / Gram Panchayat.",
+        "descriptionTamil": "நகராட்சி / ஊராட்சி மன்றம் வழங்கிய பிறப்புச் சான்றிதழ்.",
+        "whyRequiredEnglish": "Age and parentage proof of child.",
+        "whyRequiredTamil": "குழந்தையின் வயது மற்றும் பெற்றோரை உறுதி செய்ய."
+      },
+      {
+        "id": "parent_id_proof",
+        "nameEnglish": "Parent / Guardian Aadhaar & PAN Card",
+        "nameTamil": "பெற்றோர் / பாதுகாவலரின் ஆதார் மற்றும் பான் அட்டை",
+        "descriptionEnglish": "Identity and address proof of the depositor.",
+        "descriptionTamil": "கணக்கு தொடங்கும் பெற்றோரின் அடையாள மற்றும் முகவரிச் சான்று.",
+        "whyRequiredEnglish": "Mandatory banking KYC.",
+        "whyRequiredTamil": "வங்கி மற்றும் அஞ்சலக KYC சரிபார்ப்பிற்கு."
+      },
+      {
+        "id": "photographs",
+        "nameEnglish": "Passport Size Photographs",
+        "nameTamil": "பாஸ்போர்ட் அளவு புகைப்படங்கள்",
+        "descriptionEnglish": "Photos of child and guardian.",
+        "descriptionTamil": "குழந்தை மற்றும் பெற்றோரின் புகைப்படங்கள்.",
+        "whyRequiredEnglish": "For account passbook creation.",
+        "whyRequiredTamil": "கணக்கு புத்தகம் உருவாக்க."
+      }
+    ],
+    "applicationMode": "offline_esevei",
+    "applicationPortalName": "India Post / Authorized Commercial Banks (SBI, Indian Bank, etc.)",
+    "applicationStepsEnglish": [
+      "Collect the Sukanya Samriddhi account opening form from your nearest Post Office or Bank branch.",
+      "Attach the girl child's birth certificate, guardian's Aadhaar & PAN card, and passport photos.",
+      "Submit the form along with initial deposit (minimum ₹250).",
+      "The post office/bank will issue a passbook with account number.",
+      "Deposit money annually online (via IPPB mobile app) or directly at the branch."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ அருகில் உள்ள அஞ்சலகம் (Post Office) அல்லது வங்கிக் கிளையில் செல்வ மகள் கணக்கு படிவத்தைப் பெறவும்.",
+      "2️⃣ குழந்தையின் பிறப்புச் சான்றிதழ், பெற்றோரின் ஆதார் & பான் அட்டை, புகைப்படங்களை இணைக்கவும்.",
+      "3️⃣ குறைந்தபட்ச ஆரம்ப வைப்புத்தொகை ₹250 உடன் படிவத்தை சமர்ப்பிக்கவும்.",
+      "4️⃣ அஞ்சலகம் அல்லது வங்கி உங்கள் பெயரில் அதிகாரப்பூர்வ சேமிப்பு பாஸ்புக்கை வழங்கும்.",
+      "5️⃣ ஆண்டுதோறும் அஞ்சலக மொபைல் ஆப் (IPPB) மூலமாகவோ அல்லது கிளையிலோ எளிதாக பணம் செலுத்தலாம்."
+    ],
+    "officialSourceUrl": "https://www.indiapost.gov.in/Financial/Pages/Content/SSY.aspx",
+    "officialApplyUrl": "https://www.indiapost.gov.in/Financial/Pages/Content/SSY.aspx",
+    "lastVerified": "2026-09-15"
+  },
+  {
+    "id": "stand-up-india-women",
+    "nameEnglish": "Stand-Up India Scheme for Women Entrepreneurs",
+    "nameTamil": "பெண்களுக்கான ஸ்டாண்ட்-அப் இந்தியா திட்டம்",
+    "scope": "national",
+    "state": "All India",
+    "districts": ["All"],
+    "category": "entrepreneurship",
+    "department": {
+      "english": "Department of Financial Services (DFS), Ministry of Finance, Govt. of India",
+      "tamil": "நிதிச் சேவைகள் துறை, நிதி அமைச்சகம், இந்திய அரசு"
+    },
+    "descriptionEnglish": "Facilitates bank loans between ₹10 Lakhs and ₹1 Crore to at least one woman borrower per bank branch for setting up greenfield enterprises in manufacturing, services, or trading.",
+    "descriptionTamil": "உற்பத்தி, சேவை அல்லது வணிகத் துறையில் புதிய தொழில் தொடங்கும் பெண்களுக்கு ஒவ்வொரு வங்கிக் கிளையிலும் ₹10 லட்சம் முதல் ₹1 கோடி வரை கடன் உதவி வழங்கும் திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "Women entrepreneurs aged 18 and above setting up a greenfield (first-time) enterprise. In case of non-individual enterprises, 51% shareholding must be held by woman.",
+      "summaryTamil": "18 வயது அல்லது அதற்கு மேற்பட்ட பெண்கள். புதிதாக தொடங்கப்படும் நிறுவனம் (Greenfield Enterprise) ஆக இருக்க வேண்டும்.",
+      "minAge": 18,
+      "maxAge": 65,
+      "targetGroupEnglish": "Women starting new business enterprises",
+      "targetGroupTamil": "புதிய தொழில் தொடங்கும் பெண்கள்",
+      "incomeLimitEnglish": "Creditworthy business proposal appraised by bank",
+      "incomeLimitTamil": "வங்கியால் மதிப்பிடப்பட்ட வணிகத் திட்டம்",
+      "questions": [
+        {
+          "id": "greenfield_check",
+          "questionEnglish": "Are you starting a new greenfield enterprise in manufacturing, services, or trading?",
+          "questionTamil": "நீங்கள் உற்பத்தி, சேவை அல்லது வர்த்தகத் துறையில் புதிய நிறுவனத்தை தொடங்குகிறீர்களா?",
+          "options": [
+            { "labelEnglish": "Yes, greenfield business venture", "labelTamil": "ஆம், புதிய தொழில் நிறுவனம்", "eligible": true },
+            { "labelEnglish": "No, existing business", "labelTamil": "இல்லை", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "Composite bank loan from ₹10 Lakhs to ₹1 Crore covering up to 85% of total project cost with concessionary interest.",
+      "summaryTamil": "திட்ட மதிப்பீட்டில் 85% வரை ₹10 லட்சம் முதல் ₹1 கோடி வரை சலுகை வட்டியுடன் கூடிய வங்கி கடன்.",
+      "detailsEnglish": [
+        "Bank loan from ₹10 Lakh to ₹1 Crore (term loan + working capital)",
+        "Covers up to 85% of project cost (promoter margin as low as 15%)",
+        "Repayable in up to 7 years with maximum 18 months moratorium period",
+        "Handholding and mentorship via SIDBI Stand-Up Mitra portal"
+      ],
+      "detailsTamil": [
+        "₹10 லட்சம் முதல் ₹1 கோடி வரை வங்கி கடன் உதவி",
+        "திட்ட மதிப்பீட்டில் 85% வரை வங்கி நிதி வழங்கும்",
+        "7 ஆண்டுகள் வரை எளிய தவணைகளில் திரும்பச் செலுத்தலாம்",
+        "SIDBI மற்றும் தொழில் வழிகாட்டல் அமைப்புகள் மூலம் முழு உதவி"
+      ],
+      "amount": "₹10 Lakh - ₹1 Crore Loan",
+      "frequency": "Composite loan with low margin"
+    },
+    "documents": [
+      {
+        "id": "project_report",
+        "nameEnglish": "Detailed Project Report (DPR)",
+        "nameTamil": "திட்ட அறிக்கை (Project Report)",
+        "descriptionEnglish": "Business plan with cost breakdown and cash flow estimates.",
+        "descriptionTamil": "தொழில் திட்டம், திட்ட மதிப்பீடு மற்றும் வருவாய் மதிப்பீட்டு அறிக்கை.",
+        "whyRequiredEnglish": "Required by bank for loan appraisal.",
+        "whyRequiredTamil": "வங்கி கடன் ஆய்விற்கு முதன்மை ஆவணம்."
+      },
+      {
+        "id": "kyc_docs",
+        "nameEnglish": "Aadhaar Card, PAN Card, and Address Proof",
+        "nameTamil": "ஆதார், பான் அட்டை மற்றும் முகவரிச் சான்று",
+        "descriptionEnglish": "Personal KYC documents of the woman promoter.",
+        "descriptionTamil": "தொழில் தொடங்கும் பெண்ணின் KYC ஆவணங்கள்.",
+        "whyRequiredEnglish": "Identity and credit verification.",
+        "whyRequiredTamil": "அடையாளம் மற்றும் கடன் சரிபார்ப்பிற்கு."
+      }
+    ],
+    "applicationMode": "online",
+    "applicationPortalName": "Official Stand-Up Mitra Portal (SIDBI)",
+    "applicationStepsEnglish": [
+      "Prepare your Detailed Project Report (DPR) with estimated costs and market viability.",
+      "Register on the official Stand-Up Mitra portal (standupmitra.in).",
+      "Fill the online application and select your preferred commercial bank branch.",
+      "Track your application status online; bank calls for personal discussion and appraisal.",
+      "Loan is sanctioned and disbursed directly to machinery suppliers and working capital account."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ திட்ட மதிப்பீடு மற்றும் சந்தை வாய்ப்புகள் குறித்த விரிவான திட்ட அறிக்கையை தயார் செய்யவும்.",
+      "2️⃣ standupmitra.in இணையதளத்தில் பதிவு செய்யவும்.",
+      "3️⃣ இணைய விண்ணப்பத்தை பூர்த்தி செய்து உங்களுக்கு விருப்பமான வங்கிக் கிளையைத் தேர்வு செய்யவும்.",
+      "4️⃣ விண்ணப்ப நிலையை இணையத்தில் கண்காணிக்கலாம்; வங்கி நேரில் அழைத்து பரிசீலிக்கும்.",
+      "5️⃣ கடன் ஒப்புதல் வழங்கப்பட்டு இயந்திரங்கள் வாங்க நிதி விடுவிக்கப்படும்."
+    ],
+    "officialSourceUrl": "https://www.standupmitra.in/",
+    "officialApplyUrl": "https://www.standupmitra.in/",
+    "lastVerified": "2026-09-15"
+  },
+  {
+    "id": "pm-ujjwala-yojana",
+    "nameEnglish": "Pradhan Mantri Ujjwala Yojana (PMUY 2.0)",
+    "nameTamil": "பிரதம மந்திரி உஜ்வாலா திட்டம் (இலவச சமையல் எரிவாயு)",
+    "scope": "national",
+    "state": "All India",
+    "districts": ["All"],
+    "category": "women",
+    "department": {
+      "english": "Ministry of Petroleum and Natural Gas, Government of India",
+      "tamil": "பெட்ரோலியம் மற்றும் இயற்கை எரிவாயு அமைச்சகம், இந்திய அரசு"
+    },
+    "descriptionEnglish": "Deposit-free LPG gas connections to adult women from poor households across India to ensure smoke-free kitchens and protect women's health.",
+    "descriptionTamil": "ஏழைக் குடும்பங்களைச் சேர்ந்த பெண்களுக்கு வைப்புத்தொகை இன்றி முற்றிலும் இலவச புதிய சமையல் எரிவாயு (LPG) இணைப்பு மற்றும் இலவச அடுப்பு வழங்கும் திட்டம்.",
+    "eligibility": {
+      "summaryEnglish": "Adult woman (aged 18+) belonging to eligible poor households (BPL, SC/ST, PMAY beneficiary, or SECC list), with no existing LPG connection in the household.",
+      "summaryTamil": "18 வயது நிரம்பிய பெண். குடும்பத்தில் ஏற்கனவே சமையல் எரிவாயு இணைப்பு இருக்கக் கூடாது. வறுமைக் கோட்டிற்குட்பட்ட குடும்பங்கள்.",
+      "minAge": 18,
+      "maxAge": 100,
+      "targetGroupEnglish": "Adult women from low-income households",
+      "targetGroupTamil": "ஏழைக் குடும்பங்களைச் சேர்ந்த பெண்கள்",
+      "incomeLimitEnglish": "Low income / BPL category",
+      "incomeLimitTamil": "வறுமைக்கோட்டிற்குட்பட்ட அல்லது ஏழைப் பிரிவு",
+      "questions": [
+        {
+          "id": "existing_lpg_check",
+          "questionEnglish": "Does anyone in your household already have an LPG gas connection?",
+          "questionTamil": "உங்கள் வீட்டில் ஏற்கனவே யாருக்காவது சமையல் எரிவாயு (Gas) இணைப்பு உள்ளதா?",
+          "options": [
+            { "labelEnglish": "No, we do not have any gas connection", "labelTamil": "இல்லை, எங்கள் வீட்டில் எரிவாயு இணைப்பு இல்லை", "eligible": true },
+            { "labelEnglish": "Yes, we already have one", "labelTamil": "ஆம், ஏற்கனவே உள்ளது", "eligible": false }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "summaryEnglish": "Free LPG connection with zero security deposit + free first cylinder refill + free hotplate (gas stove).",
+      "summaryTamil": "முற்றிலும் இலவச புதிய சமையல் எரிவாயு இணைப்பு + முதல் சிலிண்டர் இலவசம் + இலவச இரட்டை பர்னர் கேஸ் அடுப்பு.",
+      "detailsEnglish": [
+        "100% deposit-free LPG connection for woman applicant",
+        "Free First Cylinder Refill provided at the time of installation",
+        "Free Hotplate (double-burner gas stove) provided free of cost",
+        "Direct targeted subsidy on future cylinder refills credited to bank account"
+      ],
+      "detailsTamil": [
+        "வைப்புத்தொகை ஏதுமில்லாத இலவச எரிவாயு இணைப்பு",
+        "இணைப்புடன் முதல் சிலிண்டர் முற்றிலும் இலவசம்",
+        "இரட்டை பர்னர் கொண்ட புதிய கேஸ் அடுப்பு இலவசம்",
+        "அடுத்தடுத்த சிலிண்டர்களுக்கு அரசு மானியம் வங்கிக் கணக்கில் நேரடியாக வரவு"
+      ],
+      "amount": "Free Connection + Free Stove",
+      "frequency": "One-time connection grant + ongoing refill subsidy"
+    },
+    "documents": [
+      {
+        "id": "aadhaar",
+        "nameEnglish": "Aadhaar Card of Applicant Woman",
+        "nameTamil": "விண்ணப்பதாரர் பெண்ணின் ஆதார் அட்டை",
+        "descriptionEnglish": "Identity and address proof.",
+        "descriptionTamil": "அடையாள மற்றும் முகவரிச் சான்று.",
+        "whyRequiredEnglish": "Mandatory for connection registration and subsidy.",
+        "whyRequiredTamil": "இணைப்பு பதிவு மற்றும் மானியத்திற்கு கட்டாயம்."
+      },
+      {
+        "id": "ration_card",
+        "nameEnglish": "Ration Card (showing family members)",
+        "nameTamil": "குடும்ப அட்டை (Ration Card)",
+        "descriptionEnglish": "Ration card establishing household composition.",
+        "descriptionTamil": "குடும்ப உறுப்பினர்களின் விவரம் கொண்ட குடும்ப அட்டை.",
+        "whyRequiredEnglish": "To verify no duplicate connection in same household.",
+        "whyRequiredTamil": "ஒரே குடும்பத்தில் இரு இணைப்புகள் இல்லை என்பதை உறுதி செய்ய."
+      },
+      {
+        "id": "bank_passbook",
+        "nameEnglish": "Bank Passbook with Aadhaar link",
+        "nameTamil": "வங்கி பாஸ்புக் (ஆதார் இணைக்கப்பட்டது)",
+        "descriptionEnglish": "Savings bank account details.",
+        "descriptionTamil": "சேமிப்பு கணக்கு விவரங்கள்.",
+        "whyRequiredEnglish": "DBTL subsidy transfer.",
+        "whyRequiredTamil": "எரிவாயு மானியம் நேரடியாக வரவு வைக்க."
+      }
+    ],
+    "applicationMode": "online",
+    "applicationPortalName": "Official PMUY Portal / Local LPG Distributor (Indane, BharatGas, HP)",
+    "applicationStepsEnglish": [
+      "Keep your Aadhaar Card, Ration Card, and Bank Passbook ready.",
+      "Apply online at pmuy.gov.in or directly visit your nearest Indane / Bharat Gas / HP Gas distributor.",
+      "Submit the Ujjwala 2.0 KYC application form.",
+      "Distributor performs de-duplication check to confirm no existing connection.",
+      "Gas stove, regulator, safety pipe, and first filled cylinder are delivered to your home."
+    ],
+    "applicationStepsTamil": [
+      "1️⃣ ஆதார் அட்டை, ரேஷன் அட்டை மற்றும் வங்கி பாஸ்புக்கை தயாராக வைக்கவும்.",
+      "2️⃣ pmuy.gov.in இணையதளத்தில் அல்லது அருகிலுள்ள Indane / BharatGas / HP Gas ஏஜென்சியில் நேரில் செல்லவும்.",
+      "3️⃣ உஜ்வாலா 2.0 எளிய விண்ணப்பப் படிவத்தைப் பூர்த்தி செய்து சமர்ப்பிக்கவும்.",
+      "4️⃣ எரிவாயு நிறுவனம் உங்கள் குடும்ப விவரங்களை சரிபார்க்கும்.",
+      "5️⃣ புதிய எரிவாயு சிலிண்டர், கேஸ் அடுப்பு மற்றும் இணைப்பு உபகரணங்கள் உங்கள் வீட்டிற்கு வழங்கப்படும்."
+    ],
+    "officialSourceUrl": "https://pmuy.gov.in/",
+    "officialApplyUrl": "https://pmuy.gov.in/",
+    "lastVerified": "2026-09-15"
+  }
+]
